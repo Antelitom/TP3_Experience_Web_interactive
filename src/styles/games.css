@@ -2,4 +2,6 @@
 .game-row {
     display: flex;
     gap: 500px;
+    margin-left: 700px;
+    margin-right: 700px;
 }
