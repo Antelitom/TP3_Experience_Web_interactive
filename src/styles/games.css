@@ -5,12 +5,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 100px;
     margin-left: 300px;
     margin-right: 300px;
 }
 
 .game-row {
     display: flex;
+    justify-content: flex-start;
     gap: 500px;
     z-index: 1;
 }
