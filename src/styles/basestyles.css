@@ -11,42 +11,6 @@ body {
     background-size: 400vw;
 }
 
-.barre-navig {
-    position: fixed;
-    background-color: black;
-    width: 1400px;
-    height: 70px;
-    border-radius: 25px;
-    z-index: 50;
-
-    text-align: center;
-    font-size: 2.3em;
-    padding-top: 25px;
-
-    left: 15vw;
-    word-spacing: 100px;
-}
-
-.noms-barre-navig {
-    color: transparent;
-    text-decoration: none;
-}
-
-.gamecube {
-    background: linear-gradient(90deg, #FFF 0%, #7768FF 100%);
-    background-clip: text;
-}
-
-.playstation {
-    background: linear-gradient(90deg, #FFF 0%, #477BFF 100%);
-    background-clip: text;
-}
-
-.xbox {
-    background: linear-gradient(90deg, #FFF 0%, #29CA40 100%);
-    background-clip: text;
-}
-
 h1 {
     font-size: 4em;
     color: rgb(225, 221, 255);

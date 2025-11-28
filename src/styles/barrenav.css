@@ -1,0 +1,37 @@
+/* Fait par Yasmine */
+
+.barre-navig {
+    position: fixed;
+    background-color: black;
+    width: 1400px;
+    height: 70px;
+    border-radius: 25px;
+    z-index: 50;
+
+    text-align: center;
+    font-size: 2.3em;
+    padding-top: 25px;
+
+    left: 13.4vw;
+    word-spacing: 100px;
+}
+
+.noms-barre-navig {
+    color: transparent;
+    text-decoration: none;
+}
+
+.gamecube {
+    background: linear-gradient(90deg, #FFF 0%, #7768FF 100%);
+    background-clip: text;
+}
+
+.playstation {
+    background: linear-gradient(90deg, #FFF 0%, #477BFF 100%);
+    background-clip: text;
+}
+
+.xbox {
+    background: linear-gradient(90deg, #FFF 0%, #29CA40 100%);
+    background-clip: text;
+}
