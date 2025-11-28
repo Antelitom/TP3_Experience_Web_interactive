@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+
+body {
+    font-family: "Lexend Exa", sans-serif;
+    color: white;
+    background-color: rgb(177, 172, 223);
+}
+
+h1 {
+    font-size: 5em;
+    color: rgb(225, 221, 255);
+}
+
+h2 {
+    font-size: 1.8em;
+}
