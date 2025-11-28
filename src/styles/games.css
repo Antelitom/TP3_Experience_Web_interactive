@@ -18,5 +18,8 @@
 }
 
 .ligne-du-temps {
+    display: flex;
+
+    top: 100px;
     z-index: 0;
 }
