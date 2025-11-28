@@ -14,3 +14,8 @@ h1 {
 h2 {
     font-size: 1.8em;
 }
+
+p {
+    font-size: 1.2rem;
+    color: rgb(12, 12, 12);
+}
