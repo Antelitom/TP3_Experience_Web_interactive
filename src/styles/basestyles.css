@@ -4,6 +4,9 @@ body {
     font-family: "Lexend Exa", sans-serif;
     color: white;
     background-color: rgb(177, 172, 223);
+    margin-left: 50px;
+    margin-right: 50px;
+    width: fit-content;
 }
 
 h1 {
