@@ -3,12 +3,45 @@
 body {
     font-family: "Lexend Exa", sans-serif;
     color: white;
-    background-color: rgb(177, 172, 223);
 
-    /* Fait par Yasmine */
-    background: linear-gradient(90deg,rgba(177, 172, 223, 1) 0%, rgba(87, 81, 136, 1) 100%);
-    background: linear-gradient(90deg,rgba(135, 156, 223, 1) 0%, rgba(36, 77, 139, 1) 100%);
-    background: linear-gradient(90deg,rgba(159, 228, 169, 1) 0%, rgba(47, 104, 55, 1) 100%);
+    background: linear-gradient(90deg,#B1ACDF 0%, #575188 20%, #879CDF 40%,#244D8B 60%, #9FE4A9 80%, #2F6837 100%);
+    background-size: 400vw;
+}
+
+.barre-navig {
+    position: fixed;
+    background-color: black;
+    width: 1400px;
+    height: 70px;
+    border-radius: 25px;
+    z-index: 50;
+
+    text-align: center;
+    font-size: 2.3em;
+    padding-top: 25px;
+
+    left: 15vw;
+    word-spacing: 100px;
+}
+
+.noms-barre-navig {
+    color: transparent;
+    text-decoration: none;
+}
+
+.gamecube {
+    background: linear-gradient(90deg, #FFF 0%, #7768FF 100%);
+    background-clip: text;
+}
+
+.playstation {
+    background: linear-gradient(90deg, #FFF 0%, #477BFF 100%);
+    background-clip: text;
+}
+
+.xbox {
+    background: linear-gradient(90deg, #FFF 0%, #29CA40 100%);
+    background-clip: text;
 }
 
 h1 {
