@@ -1,12 +1,21 @@
 
+.game-timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
 
 .game-row {
     display: flex;
     justify-content: flex-start;
     gap: 500px;
+    z-index: 1;
+}
 
-    margin-left: 700px;
-    margin-right: 700px;
-
-    margin-top: 110px;
+.ligne-du-temps {
+    z-index: 0;
 }
