@@ -15,6 +15,14 @@
     z-index: 1;
 }
 
+.date-row {
+    display: flex;
+    align-items: center;
+    gap: 674px;
+    z-index: 1;
+}
+
 .ligne-du-temps {
     z-index: 0;
+    margin-top: 20px;
 }
