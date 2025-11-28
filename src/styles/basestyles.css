@@ -3,6 +3,9 @@
 body {
     font-family: "Lexend Exa", sans-serif;
     color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: fit-content;
 
     background: linear-gradient(90deg,#B1ACDF 0%, #575188 20%, #879CDF 40%,#244D8B 60%, #9FE4A9 80%, #2F6837 100%);
     background-size: 400vw;
@@ -45,15 +48,17 @@ body {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
     color: rgb(225, 221, 255);
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
+    color: rgb(225, 221, 255);
 }
 
 p {
+    margin-top: 100px;
     font-size: 1.2rem;
     color: rgb(12, 12, 12);
 }
