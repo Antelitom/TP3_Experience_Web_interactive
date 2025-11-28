@@ -4,6 +4,11 @@ body {
     font-family: "Lexend Exa", sans-serif;
     color: white;
     background-color: rgb(177, 172, 223);
+
+    /* Fait par Yasmine */
+    background: linear-gradient(90deg,rgba(177, 172, 223, 1) 0%, rgba(87, 81, 136, 1) 100%);
+    background: linear-gradient(90deg,rgba(135, 156, 223, 1) 0%, rgba(36, 77, 139, 1) 100%);
+    background: linear-gradient(90deg,rgba(159, 228, 169, 1) 0%, rgba(47, 104, 55, 1) 100%);
 }
 
 h1 {
