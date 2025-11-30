@@ -1,5 +1,16 @@
 /* Fait par Yasmine */
 
+.nav-sidedrop {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-sidedrop:hover .barre-navig {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
 .barre-navig {
     position: fixed;
     background-color: black;
@@ -14,24 +25,52 @@
 
     left: 13.4vw;
     word-spacing: 100px;
+
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s;
 }
 
 .noms-barre-navig {
     color: transparent;
     text-decoration: none;
+
+    text-decoration: none;
+    display: block;
 }
 
 .gamecube {
+    display: inline-block;
     background: linear-gradient(90deg, #FFF 0%, #7768FF 100%);
     background-clip: text;
+    transition: transform 0.3s ease-out;
+}
+
+.gamecube:hover {
+    color: #7768FF;
+    transform: translateY(-10px); 
 }
 
 .playstation {
+    display: inline-block;
     background: linear-gradient(90deg, #FFF 0%, #477BFF 100%);
     background-clip: text;
+    transition: transform 0.3s ease-out;
+}
+
+.playstation:hover {
+    color: #477BFF;
+    transform: translateY(-10px); 
 }
 
 .xbox {
+    display: inline-block;
     background: linear-gradient(90deg, #FFF 0%, #29CA40 100%);
     background-clip: text;
+    transition: transform 0.3s ease-out;
+}
+
+.xbox:hover {
+    color: #29CA40;
+    transform: translateY(-10px); 
 }

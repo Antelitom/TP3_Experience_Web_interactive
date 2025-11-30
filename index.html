@@ -11,13 +11,15 @@
   </head>
   <body>
 
-    <header>
+    <!-- Barre de navigation (fait par Yasmine) -->
+    <div class="nav-sidedrop">
       <nav class="barre-navig">
         <a href="#gamecubesection" class="noms-barre-navig gamecube">Gamecube</a> 
         <a href="#playstationsection" class="noms-barre-navig playstation">Playstation</a> 
         <a href="#xboxsection" class="noms-barre-navig xbox">XBOX</a>
       </nav>
-    </header>
+    </div>
+    <!--------------------------------------------->
 
     <h1>
       GLISSEZ POUR NAVIGUER</br>
@@ -35,7 +37,7 @@
       <!-- Images des jeux de la ligne du temps -->
       <div class="game-row">
         <div class="G-Smash">
-          <a id="gamecubesection"><img src="\images\cover-smash-bros.png"></a>
+          <a id="gamecubesection" class="scroll-section"><img src="\images\cover-smash-bros.png"></a>
         </div>
 
         <div class="G-Sun">
@@ -47,11 +49,11 @@
         </div>
 
         <div class="P-Silent">
-          <a id="playstationsection"><img src="\images\cover-silent-hill.png"></a>
+          <a id="playstationsection" class="scroll-section"><img src="\images\cover-silent-hill.png"></a>
         </div>
 
         <div class="P-GTA">
-          <img src="\images\cover-gta.png">
+          <img src="images/cover-gta.png" alt="GTA Cover">
         </div>
 
         <div class="P-Metal">
@@ -63,7 +65,7 @@
         </div> 
 
         <div class="X-Halo1">
-          <a id="xboxsection"><img src="\images\cover-halo.png"></a>
+          <a id="xboxsection" class="scroll-section"><img src="\images\cover-halo.png"></a>
         </div> 
 
         <div class="X-Halo2">
@@ -116,8 +118,6 @@
       </div>
 
     </section>
-
-    <div class="cercle-timeline"></div>
 
     <script type="module" src="/src/main.js"></script>
   </body>
