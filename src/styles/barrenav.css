@@ -74,3 +74,18 @@
     color: #29CA40;
     transform: translateY(-10px); 
 }
+
+/* Adaptatif pour mobile */
+@media (width <= 800px) {
+ 
+    .barre-navig {
+       position: fixed;
+       width: 300px;
+       height: 100px;
+ 
+       font-size: 1.5em;
+       padding-top: 10px;
+    }
+ 
+}
+ 

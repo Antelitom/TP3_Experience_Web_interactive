@@ -41,7 +41,7 @@ body {
 }
 
 .couleur-vert {
-    background-color: #9FE4A9;
+    background-color: #70d17e;
 }
 
 /* --------------- */
@@ -95,4 +95,17 @@ p {
     font-size: 1.2rem;
     color: rgb(12, 12, 12);
     z-index: -2;
+}
+
+/* Adaptatif pour mobile fait par Yasmine */
+@media (width <= 800px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+ 
 }
