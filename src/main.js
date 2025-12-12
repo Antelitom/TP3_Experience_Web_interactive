@@ -1,3 +1,5 @@
+import {gsap} from "gsap"
+
 import "./style.css";
 import "./modules/page-principale/animDegradeBG.js"
 
