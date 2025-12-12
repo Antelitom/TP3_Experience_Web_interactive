@@ -6,6 +6,7 @@ h6 {
     font-weight: normal;
 }
 
+/* Smash */
 .game-description1 {
     background-color: black;
     color: white;
@@ -24,6 +25,7 @@ h6 {
     transform: translateX(-229px);
 }
 
+/* Sunshine */
 .game-description2 {
     background-color: black;
     color: white;
@@ -42,6 +44,7 @@ h6 {
     transform: translateX(-231px);
 }
 
+/* Resident Evil */
 .game-description3 {
     background-color: black;
     color: white;
@@ -60,6 +63,7 @@ h6 {
     transform: translateX(-225px);
 }
 
+/* Silent Hill */
 .game-description4 {
     background-color: black;
     color: white;
@@ -78,6 +82,7 @@ h6 {
     transform: translateX(-220px);
 }
 
+/* GTA */
 .game-description5 {
     background-color: black;
     color: white;
@@ -96,6 +101,7 @@ h6 {
     transform: translateX(-224px);
 }
 
+/* Engrenage de Métal Solide 3: Mangeur de Serpent */
 .game-description6 {
     background-color: black;
     color: white;
@@ -114,6 +120,7 @@ h6 {
     transform: translateX(-225px);
 }
 
+/* Gran Turismo */
 .game-description7 {
     background-color: black;
     color: white;
@@ -132,6 +139,7 @@ h6 {
     transform: translateX(-225px);
 }
 
+/* Halo */
 .game-description8 {
     background-color: black;
     color: white;
@@ -150,6 +158,7 @@ h6 {
     transform: translateX(-223px);
 }
 
+/* Halo2 */
 .game-description9 {
     background-color: black;
     color: white;
