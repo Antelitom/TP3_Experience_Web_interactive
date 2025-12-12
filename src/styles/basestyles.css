@@ -5,11 +5,59 @@ body {
     color: white;
     margin: 0;
 
-    background: linear-gradient(90deg,#B1ACDF 0%, #575188 20%, #879CDF 40%,#244D8B 60%, #9FE4A9 80%, #2F6837 100%);
     background-size: 400vw;
+    background-color: #B1ACDF;
 }
 
+/* Fait par Yasmine */
+
+#section1 {
+    min-width: 50vw;
+
+    display: flex;
+    gap: 500px;
+}
+
+#section2 {
+    min-width: 50vw;
+    
+    display: flex;
+    gap: 500px;
+}
+
+#section3 {
+    min-width: 50vw;
+
+    display: flex;
+    gap: 500px;
+}
+
+.couleur-mauve {
+    background-color: #B1ACDF;
+}
+
+.couleur-bleu {
+    background-color: #879CDF;
+}
+
+.couleur-vert {
+    background-color: #9FE4A9;
+}
+
+/* --------------- */
+
+
+
+
 .bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    pointer-events: none;
+}
+
+.back-Video {
     position: fixed;
     top: 0;
     left: 0;
