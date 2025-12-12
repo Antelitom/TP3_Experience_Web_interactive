@@ -1,6 +1,6 @@
 // Fait par Yasmine
 
-window.addEventListener('scroll', () => {
+document.querySelector(".game-timeline").addEventListener('scroll', () => {
     const sections = document.querySelectorAll('.scroll-section');
     const body = document.body;
 
