@@ -7,9 +7,46 @@ body {
     margin-right: 50px;
     width: fit-content;
 
-    background: linear-gradient(90deg,#B1ACDF 0%, #575188 20%, #879CDF 40%,#244D8B 60%, #9FE4A9 80%, #2F6837 100%);
     background-size: 400vw;
+
+    background-color: #B1ACDF;
+    /* transition: background-color 0.5s ease-in-out; */
+
+    /* animation:changementCouleur 10s infinite alternate; */
 }
+
+/* @keyframes changementCouleur {
+    0% {background-color: #B1ACDF;}
+    50% {background-color: #879CDF;}
+    100% {background-color: #9FE4A9;}
+} */
+
+#section1 {
+    min-height: 100vh;
+}
+
+#section2 {
+    min-height: 100vh;
+}
+
+#section3 {
+    min-height: 100vh;
+}
+
+.couleur-mauve {
+    background-color: #B1ACDF;
+}
+
+.couleur-bleu {
+    background-color: #879CDF;
+}
+
+.couleur-vert {
+    background-color: #9FE4A9;
+}
+
+
+
 
 h1 {
     font-size: 4em;
