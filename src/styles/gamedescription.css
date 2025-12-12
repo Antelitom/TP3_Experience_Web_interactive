@@ -1,0 +1,169 @@
+/* Fait par Antoine */
+
+h6 {
+    text-align: start;
+    padding-left: 5px;
+    font-weight: normal;
+}
+
+.game-description1 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    z-index: -1;
+    
+    transition: all 0.5s ease;
+}
+.smash-description {
+    transform: translateX(-229px);
+}
+
+.game-description2 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    z-index: -1;
+    
+    transition: all 0.5s ease;
+}
+.sun-description {
+    transform: translateX(-231px);
+}
+
+.game-description3 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    z-index: -1;
+    
+    transition: all 0.5s ease;
+}
+.re4-description {
+    transform: translateX(-225px);
+}
+
+.game-description4 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    z-index: -1;
+    
+    transition: all 0.5s ease;
+}
+.silent-description {
+    transform: translateX(-220px);
+}
+
+.game-description5 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    z-index: -1;
+    
+    transition: all 0.5s ease;
+}
+.gta-description {
+    transform: translateX(-224px);
+}
+
+.game-description6 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    z-index: -1;
+    
+    transition: all 0.5s ease;
+}
+.metal-description {
+    transform: translateX(-225px);
+}
+
+.game-description7 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    z-index: -1;
+    
+    transition: all 0.5s ease;
+}
+.gt4-description {
+    transform: translateX(-225px);
+}
+
+.game-description8 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    z-index: -1;
+    
+    transition: all 0.5s ease;
+}
+.halo1-description {
+    transform: translateX(-223px);
+}
+
+.game-description9 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    z-index: -1;
+    
+    transition: all 0.5s ease;
+}
+.halo2-description {
+    transform: translateX(-223px);
+}

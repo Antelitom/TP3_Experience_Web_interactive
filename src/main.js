@@ -2,6 +2,7 @@ import {gsap} from "gsap"
 
 import "./style.css";
 import "./modules/page-principale/animDegradeBG.js"
+import "./modules/page-principale/gameDescription.js"
 
 //code pour la fonction vidéo d'arrière-plan (Jason)
 const games = ["G-Smash", "G-Sun", "G-RE4", "P-Silent", "P-GTA", "P-Metal", "P-Gt4", "X-Halo1", "X-Halo2"];
